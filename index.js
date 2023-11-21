@@ -16,7 +16,7 @@ const displayEntries = () => {
     .map((entry) => {
       const namecell = `<td>${entry.name}</td>`;
       const emailcell = `<td>${entry.email}</td>`;
-      const passwordcell = `<td>${entry.pass}</td>`;
+      const passwordcell = `<td>${entry.password}</td>`;
       const dobcell = `<td>${entry.dob}</td>`;
       const acceptedTermsAndConditionscell = `<td>${entry.acceptedTermsAndConditions}</td>`;
 
