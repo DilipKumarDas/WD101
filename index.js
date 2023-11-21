@@ -28,8 +28,8 @@ const displayEntries = () => {
     <th>Name</th>
     <th>Email</th>
     <th>Password</th>
-    <th>bod</th>
-    <th>accepted terms</th>
+    <th>Dob</th>
+    <th>Accepted terms?</th>
     </tr>${tableEntries}</table>`;
 
   let details = document.getElementById("user-entries");
